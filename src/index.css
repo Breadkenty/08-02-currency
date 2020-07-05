@@ -18,13 +18,15 @@ main {
   align-items: center;
 }
 
-form {
-  /* border: 1px solid red; */
-  height: 15vh;
+.currency-input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.currency-input>div, .currency-input>button {
+  margin: 5px;
 }
 
 .base-select-menu select {
@@ -52,4 +54,10 @@ input, select {
   padding: 0 10px;
   border: 1px #cacaca solid;
   border-radius: 3px;
+}
+
+button {
+  height: 35px;
+  width: 75px;
+  border: none;
 }

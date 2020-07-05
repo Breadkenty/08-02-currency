@@ -27,11 +27,8 @@ function App() {
   const loadPhotoFromApi = () => {
     const url = `https://api.ratesapi.io/api/${currencyDate}?base=${currencyBase}`
 
-    // Fetch the URL (get)
     fetch(url)
-      // Then we turn the response into JSON
       .then(response => response.json())
-      // Then we have the API data as an object
       .then(apiData => {
         setCurrencyRates(apiData.rates)
       })
@@ -46,7 +43,6 @@ function App() {
         <div className="base-select-menu">
           <select
             name="base"
-            placeholder="base"
             onChange={event => {
               handleBaseChange(event)
             }}

@@ -10,3 +10,46 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  /* border: 1px solid red; */
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.base-select-menu select {
+  width: auto;
+}
+
+option {
+  padding: 0;
+}
+
+.currency-output {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 3px;
+}
+
+.currency-label {
+  width: 50px;
+}
+
+input, select {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px #cacaca solid;
+  border-radius: 3px;
+}

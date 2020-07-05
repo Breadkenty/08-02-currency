@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: .05rem;
+}
+
+input[type="date" i] {
+  font-family: 'Roboto', sans-serif;
+}
+
+.currency-label {
+  font-weight: 500;
+}
+
+.currency-label>span {
+  color: red;
+}
+
+.currency-number {
+  color: #4482D8;
+}

@@ -15,10 +15,7 @@ input[type="date" i] {
   font-weight: 500;
 }
 
-.currency-label>span {
-  color: red;
-}
-
 .currency-number {
+  font-weight: 400;
   color: #4482D8;
 }

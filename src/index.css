@@ -31,8 +31,8 @@ form {
   width: auto;
 }
 
-option {
-  padding: 0;
+.currency-input {
+  margin-right: 30px;
 }
 
 .currency-output {
@@ -47,9 +47,9 @@ option {
 }
 
 input, select {
-  width: 200px;
+  width: 150px;
   height: 30px;
-  padding-left: 10px;
+  padding: 0 10px;
   border: 1px #cacaca solid;
   border-radius: 3px;
 }
